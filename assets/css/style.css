@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#bg {
+	width: 100%;
+	height: 100vh;
+}
+
+ .tickcounter {
+ 	width: 100%;
+ 	position: relative;
+ 	padding-bottom: 25%;
+ }
