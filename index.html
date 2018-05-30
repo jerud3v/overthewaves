@@ -29,39 +29,39 @@
 </head>
 <body>
 
-	<div class="nvbckg"><!-- start navbar background -->
+	<div class="nvbckg"> <!-- start navbar background -->
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+		<nav class="navbar navbar-expand-lg navbar-dark">
   			<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
   				<i class="fas fa-bars"></i>
     			<!-- <span class="navbar-toggler-icon"></span> -->
   			</button>
 
-  			<div class="collapse navbar-collapse" id="navbarText">
-    			<ul class="navbar-nav ml-auto">
+  			<div class="collapse navbar-collapse" id="navMenu">
+    			<ul class="navbar-nav ml-auto" id="nav-items">
 
       				<li class="nav-item ml-auto">
-       					<a class="nav-link text-light" href="gallery.html"> Gallery <span class="sr-only">(current)</span></a>
+        				<a class="nav-link text-md" href="read.html" id="link2"> Read </a>
       				</li>
-	
+
       				<li class="nav-item ml-auto">
-        				<a class="nav-link text-light" href="stories.html"> Stories </a>
+       					<a class="nav-link text-md" href="products.html" id="link1"> Products <span class="sr-only">(current)</span></a>
       				</li>
-	
+		
       				<li class="nav-item ml-auto">
-        				<a class="nav-link text-light" href="about-us.html"> About Us </a>
+        				<a class="nav-link text-md" href="privacy.html" id="link3"> Privacy </a>
      				 </li>
 
    				</ul>
 
   			</div>
-		</nav>
-		
+		</nav>		
 
-	</div><!-- end navbar container -->
+	</div> <!-- end navbar background -->
 
-	<!-- <div class="bgimg"> -->
+	
 		<div class="jumbotron"><!-- start jumbotron row -->
 			
 			<div class="row">
@@ -86,8 +86,8 @@
 									<div class="card-body">
 										<h5 class="card-title">Jeru Baldia</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Seafarer / Navigator</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 										</div>
 								</div>
@@ -95,10 +95,10 @@
 								<div class="card col-md-4 col-lg-4 cardscol">
 
 									<div class="card-body">
-										<h5 class="card-title">Michael Lloren</h5>
+										<h5 class="card-title">Laykim Renol</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Surfer</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 										</div>
 								</div>
@@ -108,8 +108,8 @@
 									<div class="card-body">
 										<h5 class="card-title">Anna De Leon</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Beach Lover</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 									</div>
 								</div>
@@ -124,8 +124,8 @@
 									<div class="card-body">
 										<h5 class="card-title">James Bino</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Beach Goer</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 										</div>
 								</div>
@@ -133,10 +133,10 @@
 								<div class="card col-md-4 col-lg-4 cardscol">
 
 									<div class="card-body">
-										<h5 class="card-title">Rachel Sikad</h5>
+										<h5 class="card-title">Norma Mist</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Beach Volleyball Player</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 										</div>
 								</div>
@@ -146,8 +146,8 @@
 									<div class="card-body">
 										<h5 class="card-title">Ipsum Merol</h5>
 										<h6 class="card-subtitle mb-2 text-muted">Oceanographer</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing...
-											<a href="stories.html">Read More</a>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
+											<a href="read.html">Read More</a>
 										</p>
 										</div>
 								</div> 
@@ -165,60 +165,70 @@
 									<div class="showcase text-light col-lg-12"><!-- showcase link to stories button -->
 									<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
 									<p><strong>Don't tell your stories over the water</strong></p>
-									<a class="showcasebtn" href="stories.html" target="_blank"><button type="button" class="btn btn-light">Share it with us!</button></a>
+									<a class="showcasebtn" href="read.html"><button type="button" class="btn btn-light">Share it with us!</button></a>
 									</div><!-- endshowcase link to stories button -->
 								</div>
 							</div>
-						</div><!-- end left pannel -->
-						
+
+
+							<div class="row">							
+								<div class="col-lg-12" id="subscard">
+									<div class="card text-center">					
+											<div class="card-header">											
+									 		<h5>Get the latest update</h5>
+										  	</div>
+
+										<div class="card-body bg-dark">				  			
+							    			<p class="card-title h5 text-white">Sign Up to Subscribe</p>				    			    			
+					    					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					    					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+											<a href="#" class="btn btn-primary">Sign Me Up!</a>					  						
+							    		</div>
+									</div>	
+								</div>
+							</div>
+
+						</div><!-- end right pannel -->
+
 					</div><!-- end jumbotron>row>col-lg-12>row --> 
 						
 				</div><!-- end jumbotron>row>col-lg-12 -->
 
 			</div><!-- end jumbotron>row -->
+
+		</div><!-- end jumbotron -->
 			
-		</div>
-	<!-- </div> -->
-		
-<footer>
-	<div class="card text-center">
-		
-		 	<div class="card-header">
-								
-		 			<h5>Get the latest update</h5>
-		  		
-		</div>
+				<footer class="container-fluid">
+					<div class="row bg-dark" id="footerrow">
+						<div class="col-md-4 col-lg-5 text-white">
+							<p class="h1">Living Over The Waves</p>
+							<p>&copy 2018 Jeru Baldia<br>
+							All Rights Reserved</p>
+						</div>
 
-  		<div class="card-body">
-  			<div class="row">
-  				<div class="col-lg-4">
-    				<p class="card-title h5">Sign Up to Subscribe</p>
-  				</div>
-  				<div class="col-lg-8">
-  				</div>
-  			</div>
-  					
-    			<div class="row">    				
-		    		<div class="form-group col-lg-4">		    			
-		    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-		    			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-		  			</div>
+						<div class="col-md-4 col-lg-3 text-white">
+							<p>Contact Info:</p>
+								<ul class="list-inline">
+									<li><a href="mailto:jerud3v@gmail.com" <i class="far fa-envelope"></i></a> Gmail</li>
+									<li><a href="https://m.me/jeru.dev" target="_blank"><i class="fab fa-facebook-messenger"></i></i></a> Messenger</li>
+								</ul>
+						</div>
 
-		  			<div class="col-lg-1">
-    					<a href="#" class="btn btn-primary">Sign Me Up!</a>
-		  			</div>
-		  			<div class="col-lg-7">
-		  			</div>
-		  			
-    			</div>
-
-  		</div>
-
- 		
-	</div>
+						<div class="col-md-4 col-lg-4 text-right">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="#"><p>Privacy Policy</p></a></li>
+								<li class="list-inline-item"><a href="#"><p>Terms Of Use</p></a></li>
+							</ul>
+						</div>
+					</div><!-- end of row -->
+				</footer>
+				
+			
+			
 	
-</footer>
-	</div><!-- end jumbotron -->
+		
+			
+	
 
 
 
