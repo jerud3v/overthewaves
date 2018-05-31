@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;     
 }
 
-.nvbckg {
+.navbkg {
 	background-image: url(../images/headerbg.jpg);
 	background-size: cover;	
 	width: 100vw;	
@@ -18,9 +18,7 @@ body {
 	padding: 5px 0 0 0;
 	font-family: 'Lato', sans-serif;
 	padding-right: 10px;	
-	height: 10vh;
-
-	/*z-index: 99999999;*/
+	height: 15vh;
 }
 	#link1,
 	#link2,
@@ -45,9 +43,7 @@ p {
 	background-color: transparent;
 }
 
-.cardscol {
 
-}
 
 .fa-bars {	
 	color: white;
@@ -55,16 +51,17 @@ p {
 }
 
 .jumbotron {
-	/*width: 100vw;*/
-	height: 90vh;
+	width: 100vw;
+	height: 85vh;
 	background-image: url(../images/jumbotronbg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: transparent;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	z-index: -1;
+	/*z-index: -1;*/
 }
+
 .showcase {
 	margin-top: 40px;
 	display: flex;
@@ -73,7 +70,7 @@ p {
 	align-items: center;
 	text-align: center;
 	background-color: rgba(0, 0, 0, .5);
-	/*margin-bottom: 40px;*/
+	margin-bottom: 40px;
 }
 
 
@@ -100,13 +97,114 @@ footer {
 	/*height: 5px;*/
 }
 
+.card {
+	width: 18rem;
+}
+
+.card-prod {
+	/*width: 10rem;*/
+	height: 50%;
+	padding: 0 0;
+	border: 1px dotted black;
+
+}
+
+.card-1-bg {
+	background-image: url(../images/card-1-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 50%;*/
+	background-position: center;
+}
+
+.card-2-bg {
+	background-image: url(../images/card-2-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 50%;*/
+	background-position: center;
+}
+
+.card-3-bg {
+	background-image: url(../images/card-3-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 50%;*/
+	background-position: center;
+}
 
 
+.foot-priv:hover {
+	text-decoration: none;
+}
+
+.surf-index {
+	/*background-image: url(../images/surf-index.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+}
 
 
+#image1,
+#image2,
+#image3 {
+	width: 30vw;
+	align-self: left;
+}
+.sando-index {
+	/*background-image: url(../images/sando-index.jpg);*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	/*width: 100%;*/
+	/*background-position: center;*/
+}
 
+.books-index {
+	/*background-image: url(../images/books-index.jpg);*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	/*width: 100%;*/
+	/*background-position: center;*/
+}
 
+.shop-visit:hover {
+	text-decoration: none;
+}
 
+.mySlides {
+	display: none;
+	margin: 0;
+}
+
+.w3-content,
+.w3-section {
+	/*max-width: 500px;*/
+	/*max-height: 100px;*/
+	/*margin-bottom: 0!important;*/
+}
+
+.showcase-prod {
+
+	/*margin-top: 40px;*/
+	/*display: flex;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+	/*margin-bottom: 40px;*/
+	padding: 0 0;
+}
+
+.p-indent {
+	text-indent: 50px;
+}
+
+#privacy-pol {
+	border: 1px solid #6EADBF;
+}
 
 
 
@@ -148,7 +246,7 @@ footer {
 		height: 100%;
 	}
 	#link1,
-	#link2,
+	/*#link2,*/
 	#link3 {
 		color: black;
 	}
@@ -185,10 +283,9 @@ footer {
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
 	#link1,
-	#link2,
+	/*#link2,*/
 	#link3 {
-		color: black;
-		background-color: white;
+		color: black;		
 	}
 
 	.jumbotron {

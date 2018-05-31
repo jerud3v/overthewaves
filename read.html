@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Living Over The Waves | Read</title>
+	<title>Living Over The Waves | Capstone 1</title>
 
 	<!-- external bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -19,116 +19,352 @@
 
 	<!-- favicon -->
 	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Lato:400i" rel="stylesheet">
+	
 </head>
 <body>
 
+	<div class="navbkg"> <!-- start navbar background -->
 
-	<div class="nvbckg"><!-- start navbar container -->
-
-		<nav class="navbar navbar-expand-lg navbar-light">
+		<nav class="navbar navbar-expand-lg navbar-dark">
   			<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
+
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  				<i class="fas fa-bars"></i>
+    			<!-- <span class="navbar-toggler-icon"></span> -->
   			</button>
 
-  			<div class="collapse navbar-collapse" id="navbarText">
-    			<ul class="navbar-nav mr-auto">
+  			<div class="collapse navbar-collapse" id="navMenu">
+    			<ul class="navbar-nav ml-auto" id="nav-items">
 
       				<li class="nav-item ml-auto">
-       					<a class="nav-link text-light" href="gallery.html"> Gallery <span class="sr-only">(current)</span></a>
+        				<a class="nav-link text-md" href="read.html" id="link2"> Read </a>
       				</li>
-	
+
       				<li class="nav-item ml-auto">
-        				<a class="nav-link text-light" href="stories.html"> Stories </a>
+       					<a class="nav-link text-md" href="products.html" id="link1"> Products <span class="sr-only">(current)</span></a>
       				</li>
-	
+		
       				<li class="nav-item ml-auto">
-        				<a class="nav-link text-light" href="about-us.html"> About Us </a>
+        				<a class="nav-link text-md" href="privacy.html" id="link3"> Privacy </a>
      				 </li>
 
    				</ul>
 
   			</div>
-		</nav>
+		</nav>		
+
+	</div> <!-- end navbar background -->
+
+	
+		<div class="jumbotron"><!-- start jumbotron row -->
+			<div class="row">
+			
+				<div class="col-lg-8">
+
+					<div class="col-lg-8">
+						<h3>Read Their Stories</h3>
+					</div>
+					<div class="col-lg-4">
+					</div>
+			<div class="row">
+
+					<div class="card card-1-bg col-md-7 col-lg-7 mb-2">
+						<div class="card-body text-white">								
+							<h5 class="card-title">Jeru Baldia</h5>
+							<h6 class="card-subtitle mb-2 text-white"><i>Seafarer / Navigator</i></h6>			
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Read Here</button>
+								<div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title text-dark" id="exampleModalLongTitle">Conning The Helm</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>											
+											</div>
+
+											<div class="modal-body text-dark">
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation <i>ullamco laboris nisi</i> ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary">Comment</button>
+												<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5 col-lg-5">									
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="card card-2-bg col-md-7 col-lg-7 mb-2">
+						<div class="card-body text-white">								
+							<h5 class="card-title">Anna De Leon</h5>
+								<h6 class="card-subtitle mb-2">Surfer</h6>			
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Read Here</button>
+								<div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title text-dark" id="exampleModalLongTitle">Dude, the tide is high!</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>											
+											</div>
+
+											<div class="modal-body text-dark">
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation <i>ullamco laboris nisi</i> ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary">Comment</button>
+												<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5 col-lg-5">									
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="card card-3-bg col-md-7 col-lg-7 mb-2">
+						<div class="card-body text-white">								
+							<h5 class="card-title">Fred Olel</h5>
+								<h6 class="card-subtitle mb-2">Yatch / Boat Enthusiast</h6>			
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Read Here</button>
+								<div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title text-dark" id="exampleModalLongTitle">Finding the true north.</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>											
+											</div>
+
+											<div class="modal-body text-dark">
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation <i>ullamco laboris nisi</i> ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+												<p class="p-indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary">Comment</button>
+												<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5 col-lg-5">									
+					</div>
+				</div>
+
+			</div><!-- end col-lg-8 -->
+
+
+				<div class="col-lg-4"><!-- start right pannel -->
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="col-lg-12">
+									</div>
+									<div class="showcase text-light col-lg-12"><!-- showcase link to stories button -->
+									<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
+									<p><strong>Don't tell your stories over the water</strong></p>
+									<a class="showcasebtn" href="read.html"><button type="button" class="btn btn-light">Share it with us!</button></a>
+									</div><!-- endshowcase link to stories button -->
+								</div>
+							</div>
+
+
+							<div class="row">							
+								<div class="col-lg-12" id="subscard">
+									<div class="card text-center">					
+											<div class="card-header">											
+									 		<h5>Get the latest update</h5>
+										  	</div>
+
+										<div class="card-body bg-dark">				  			
+							    			<p class="card-title h5 text-white">Sign Up to Subscribe</p>				    			    			
+					    					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					    					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+											<a href="#" class="btn btn-primary">Sign Me Up!</a>					  						
+							    		</div>
+									</div>	
+								</div>
+							</div>
+					</div>
+
+			</div><!-- end row -->
+
+		</div><!-- end jumbotron -->
+			
+				<footer class="container-fluid">
+					<div class="row bg-dark" id="footerrow">
+						<div class="col-md-4 col-lg-5 text-white">
+							<p class="h1">Living Over The Waves</p>
+							<p>&copy 2018 Jeru Baldia<br>
+							All Rights Reserved</p>
+						</div>
+
+						<div class="col-md-4 col-lg-3 text-white">
+							<p>Contact Info:</p>
+								<ul class="list-inline">
+									<li><a href="mailto:jerud3v@gmail.com" <i class="far fa-envelope"></i></a> Gmail</li>
+									<li><a href="https://m.me/jeru.dev" target="_blank"><i class="fab fa-facebook-messenger"></i></i></a> Messenger</li>
+								</ul>
+						</div>
+
+						<div class="col-md-4 col-lg-4 text-right">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="privacy.html"><p>Privacy Policy and Terms Of Use</p></a></li>
+							</ul>
+						</div>
+					</div><!-- end of row -->
+				</footer>
+				
+			
+			
+	
+		
+			
 	
 
 
 
 
-		<div class="container-fluid text-white story-container"><!-- start comment container -->
-			<div class="media">	
-				<img class="align-self-start mr-3" src="https://loremflickr.com/64/64/boy/all" alt="Generic placeholder image">
-				<div class="media-body">
-					<h5 class="mt-0">Jam Lloren</h5>
-					<p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- end media body -->
-
-				<div class="media">	
-				<img class="align-self-start mr-3" src="https://loremflickr.com/64/64/boy/all" alt="Generic placeholder image">
-				<div class="media-body">
-					<h5 class="mt-0">Jam Lloren</h5>
-					<p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- end media body -->
-
-				<div class="media">	
-				<img class="align-self-start mr-3" src="https://loremflickr.com/64/64/boy/all" alt="Generic placeholder image">
-				<div class="media-body">
-					<h5 class="mt-0">Jam Lloren</h5>
-					<p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- end media body -->
-
-				<div class="media">	
-				<img class="align-self-start mr-3" src="https://loremflickr.com/64/64/boy/all" alt="Generic placeholder image">
-				<div class="media-body">
-					<h5 class="mt-0">Jam Lloren</h5>
-					<p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- end media body -->
-
-				<div class="media">	
-				<img class="align-self-start mr-3" src="https://loremflickr.com/64/64/boy/all" alt="Generic placeholder image">
-				<div class="media-body">
-					<h5 class="mt-0">Jam Lloren</h5>
-					<p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div><!-- end media body -->
-	
-			</div><!-- end media -->
-
-		</div><!-- end comment container -->
 
 
 
 
-	</div><!-- end navbar container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,11 +401,5 @@
 
 	<!-- external bootsrap js -->
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
-	<!-- fb script -->
-	
-
-
-
 </body>
 </html>
