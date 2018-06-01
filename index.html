@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Living Over The Waves | Capstone 1</title>
+	<title>Over The Waves | Capstone 1</title>
 
 	<!-- external bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -26,8 +26,7 @@
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Lato:400i" rel="stylesheet">
 
-	<!-- w3school -->
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
 	
 </head>
 <body>
@@ -35,11 +34,10 @@
 	<div class="navbkg"> <!-- start navbar background -->
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
-  			<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
+  			<a class="navbar-brand text-white h1" href="index.html">Over The Waves</a>
 
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-  				<i class="fas fa-bars"></i>
-    			<!-- <span class="navbar-toggler-icon"></span> -->
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+  				<i class="fas fa-bars"></i>    			
   			</button>
 
   			<div class="collapse navbar-collapse" id="navMenu">
@@ -50,7 +48,7 @@
       				</li>
 
       				<li class="nav-item ml-auto">
-       					<a class="nav-link text-md" href="products.html" id="link1"> Products <span class="sr-only">(current)</span></a>
+       					<a class="nav-link text-md" href="products.html" id="link1"> Products </a>
       				</li>
 		
       				<li class="nav-item ml-auto">
@@ -60,9 +58,16 @@
    				</ul>
 
   			</div>
-		</nav>		
+		</nav>
+			
 
 	</div> <!-- end navbar background -->
+
+
+
+
+
+
 
 	
 		<div class="jumbotron"><!-- start jumbotron row -->
@@ -74,12 +79,9 @@
 					<div class="row">
 						<div class="col-lg-8"><!-- start left pannel -->
 
-							<div class="col-lg-8">
+							
 								<h3>Features</h3>
-							</div>
-
-							<div class="col-lg-4">
-							</div>
+							
 
 							<div class="row">														
 
@@ -89,7 +91,7 @@
 
 										<h6 class="card-subtitle mb-2 text-white"><i>Seafarer / Navigator</i></h6>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
-											<a class="text-primary bg-dark" href="read.html">Full Story</a>
+											<a class="text-white btn-read" href="read.html">Full Story</a>
 										</p>
 										</div>
 								</div>
@@ -106,7 +108,7 @@
 										<h5 class="card-title">Anna De Leon</h5>
 										<h6 class="card-subtitle mb-2">Surfer</h6>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
-											<a class="text-primary bg-dark" href="read.html">Full Story</a>
+											<a class="text-white btn-read" href="read.html">Full Story</a>
 										</p>
 									</div>
 								</div>
@@ -124,7 +126,7 @@
 										<h5 class="card-title">Fred Olel</h5>
 										<h6 class="card-subtitle mb-2">Yatch / Boat Enthusiast</h6>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing merol muspi...
-											<a class="text-primary bg-dark" href="read.html">Full Story</a>
+											<a class="text-white btn-read" href="read.html">Full Story</a>
 										</p>
 									</div>
 								</div>
@@ -142,14 +144,39 @@
 						</div><!-- end left pannel -->
 
 						<div class="col-lg-4"><!-- start right pannel -->
+
 							<div class="row">
 								<div class="col-lg-12">
 									<div class="col-lg-12">
 									</div>
 									<div class="showcase text-light col-lg-12"><!-- showcase link to stories button -->
-									<a class="navbar-brand text-white h1" href="index.html">Living Over The Waves</a>
-									<p><strong>Don't tell your stories over the water</strong></p>
-									<a class="showcasebtn" href="read.html"><button type="button" class="btn btn-light">Share it with us!</button></a>
+										<a class="navbar-brand text-white h1" href="index.html">Over The Waves</a>
+										<p><strong>Don't tell your stories over the water</strong></p>										
+											<button type="button" class="btn btn-share" data-toggle="modal" data-target="#exampleModalCenter">Share it with us!
+											</button>
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content">
+												      <div class="modal-header">
+												        <h5 class="modal-title text-dark" id="exampleModalCenterTitle">Share it with us!</h5>
+												        <button type="button" class="close" data-dismiss="modal" >
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												      </div>
+												      <div class="modal-body">
+												        <form>
+															<div class="form-group">
+												    			<label class="text-dark" for="exampleFormControlFile1">Please upload you files in Document or Text format.</label>
+												    			<input type="file" class="form-control-file" id="exampleFormControlFile1" accept=".doc,.docx,.txt">
+												  			</div>
+														</form>
+												      </div>
+												      
+												    </div>
+												  </div>
+												</div>
+									
 									</div><!-- endshowcase link to stories button -->
 								</div>
 							</div>
@@ -166,7 +193,7 @@
 							    			<p class="card-title h5 text-white">Sign Up to Subscribe</p>				    			    			
 					    					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 					    					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-											<a href="#" class="btn btn-primary">Sign Me Up!</a>					  						
+											<a href="#" class="btn btn-sign">Sign Me Up!</a>					  						
 							    		</div>
 									</div>	
 								</div>
@@ -189,7 +216,7 @@
 				<footer class="container-fluid">
 					<div class="row bg-dark" id="footerrow">
 						<div class="col-md-4 col-lg-5 text-white">
-							<p class="h1">Living Over The Waves</p>
+							<p class="h1">Over The Waves</p>
 							<p>&copy 2018 Jeru Baldia<br>
 							All Rights Reserved</p>
 						</div>
@@ -202,10 +229,8 @@
 								</ul>
 						</div>
 
-						<div class="col-md-4 col-lg-4">
-							
-								<a href="privacy.html"><p class="text-light foot-priv">Privacy Policy and Terms Of Use</p></a>
-							
+						<div class="col-md-4 col-lg-4">							
+								<a href="privacy.html"><p class="text-primary" id="foot-priv">Privacy Policy and Terms Of Use</p></a>							
 						</div>
 					</div><!-- end of row -->
 				</footer>
@@ -310,27 +335,10 @@
 
 
 
-<!-- w3school script -->
-	<script>
-	var myIndex = 0;
-	carousel();
-
-	function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-	}
-	</script>
 
 
 
-<!-- external custom js -->
+
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
